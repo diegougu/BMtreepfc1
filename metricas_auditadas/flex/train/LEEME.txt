@@ -1,0 +1,1 @@
+Directorio de archivos temporales del entrenamiento. El ejecutor los genera automaticamente.

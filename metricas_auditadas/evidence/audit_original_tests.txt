@@ -1,0 +1,15 @@
+test_all_small_boxes_have_no_false_negatives (test_adaptive.MappingTests.test_all_small_boxes_have_no_false_negatives) ... ok
+test_bijection_and_coordinate_monotonicity (test_adaptive.MappingTests.test_bijection_and_coordinate_monotonicity) ... ok
+test_cpp_duplicate_points_updates_and_boundary_queries (test_adaptive.MappingTests.test_cpp_duplicate_points_updates_and_boundary_queries) ... ok
+test_deterministic_search (test_adaptive.MappingTests.test_deterministic_search) ... ok
+test_js_empty_and_symmetry (test_adaptive.MappingTests.test_js_empty_and_symmetry) ... ok
+test_matches_original_repository_split_and_shared_nodes (test_adaptive.MappingTests.test_matches_original_repository_split_and_shared_nodes) ... skipped "Optional original repo dependencies unavailable: No module named 'torch'"
+test_no_shift_does_not_retrain (test_adaptive.MappingTests.test_no_shift_does_not_retrain) ... ok
+test_partial_training_preserves_other_keys (test_adaptive.MappingTests.test_partial_training_preserves_other_keys) ... ok
+test_region_budget_and_nonoverlap (test_adaptive.MappingTests.test_region_budget_and_nonoverlap) ... ok
+test_roundtrip (test_adaptive.MappingTests.test_roundtrip) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.107s
+
+OK (skipped=1)

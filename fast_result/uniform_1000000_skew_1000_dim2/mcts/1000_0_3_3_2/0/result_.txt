@@ -1,0 +1,21 @@
+Exact Result: bmtree z curve:training scan range: 1158.9059
+Exact Result: bmtree z curve:testing scan range: 1139.1050
+bmtree z curve:training scan range: 16.3043
+bmtree z curve:testing scan range: 17.3800
+========================================== 
+Start the mcts bmtree construct
+========================================== 
+max depth of bmtree: 3
+***** episode: 0 *****
+rollout 0 scanrange 13.147147147147166
+rollout 1 scanrange 16.30430430430431
+depth: 0, node_reward: 13.147147147147166, time use: 0.2420189380645752 choose actions: 01
+rollout 0 scanrange 12.558558558558559
+rollout 1 scanrange 16.849849849849875
+depth: 1, node_reward: 12.558558558558559, time use: 0.34336233139038086 choose actions: 1101
+rollout 0 scanrange 11.937937937937932
+rollout 1 scanrange 14.047047047047045
+depth: 2, node_reward: 11.937937937937932, time use: 0.49866652488708496 choose actions: 01010111
+bmtree mcts in episode 0: perf training scan range: 1103.7718
+bmtree mcts in episode 0: perf testing scan range: 13.0150
+total use time: 1.084047794342041 s

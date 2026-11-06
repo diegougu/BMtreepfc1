@@ -1,0 +1,9 @@
+metrica,unidad,BMTree,FlexFlood
+Latencia media de consulta,us/consulta,3.66511835,0.676728116666667
+Throughput de consultas (QPS),consultas/s,272842.485427517,1477698.31838178
+Tiempo medio amortizado de actualizacion,us/operacion,2.4157512621486177,0.17623398058252426
+Tiempo de adaptacion,ms,11.38018000006538,0.116882000000001
+Degradacion de latencia,%,-15.4294390561606,9.87396057441654
+Recall (micro),%,100,100
+Tiempo total de construccion,ms,220.32013200004664,3216.269682
+Memoria del indice residente,MiB,0.5805206298828125,0.3241310119628906
