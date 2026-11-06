@@ -1,0 +1,17 @@
+test_boundary_empty_queries_and_updates_both_backends (test_metrics.CommonBenchmarkTests.test_boundary_empty_queries_and_updates_both_backends) ... ok
+test_duplicate_initial_points_are_rejected (test_metrics.CommonBenchmarkTests.test_duplicate_initial_points_are_rejected) ... ok
+test_algorithm_two_joint_initial_forest (test_paper.PaperTests.test_algorithm_two_joint_initial_forest) ... ok
+test_detector_prunes_below_unshifted_ancestor (test_paper.PaperTests.test_detector_prunes_below_unshifted_ancestor) ... ok
+test_full_learning_deterministic_exact_and_deeper_than_three (test_paper.PaperTests.test_full_learning_deterministic_exact_and_deeper_than_three) ... ok
+test_gas_matches_independent_one_bit_scan (test_paper.PaperTests.test_gas_matches_independent_one_bit_scan) ... ok
+test_maximum_backup_and_printed_uct (test_paper.PaperTests.test_maximum_backup_and_printed_uct) ... ok
+test_no_shift_does_not_train (test_paper.PaperTests.test_no_shift_does_not_train) ... ok
+test_real_distribution_shift_triggers_partial_training (test_paper.PaperTests.test_real_distribution_shift_triggers_partial_training) ... ok
+test_scan_range_against_explicit_block_search (test_paper.PaperTests.test_scan_range_against_explicit_block_search) ... ok
+test_shared_nodes_domain_and_semicenters (test_paper.PaperTests.test_shared_nodes_domain_and_semicenters) ... ok
+test_shared_partial_retraining_native_and_untouched_keys (test_paper.PaperTests.test_shared_partial_retraining_native_and_untouched_keys) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 10.469s
+
+OK

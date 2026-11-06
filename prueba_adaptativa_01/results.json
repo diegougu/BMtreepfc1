@@ -1,0 +1,79 @@
+{
+  "implementation": "independent BMTree partial-retraining reconstruction v0.1",
+  "not_an_official_reproduction": true,
+  "dataset": "synthetic demo",
+  "config": {
+    "demo": true,
+    "tree": null,
+    "data": null,
+    "new_data": null,
+    "queries": null,
+    "new_queries": null,
+    "out": "prueba_adaptativa_01",
+    "seed": 42,
+    "sample": 2000,
+    "rollouts": 32,
+    "levels": 3,
+    "threshold": 0.1,
+    "budget": 0.5,
+    "block_size": 50,
+    "repeats": 10,
+    "learn_initial": false
+  },
+  "python": "3.14.4",
+  "numpy": "2.5.4",
+  "compiler": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "points_before": 10000,
+  "points_after": 10000,
+  "test_queries": 60,
+  "training_queries_old": 240,
+  "training_queries_new": 240,
+  "initial_training": {
+    "mode": "fixed handcrafted demo tree; no training queries used"
+  },
+  "adaptation": {
+    "detection_seconds": 0.027594939000209706,
+    "training_seconds": 0.06951267699992059,
+    "selected_paths": [
+      "left/left"
+    ],
+    "space_ratio": 0.25,
+    "candidates": 5,
+    "rounds": [
+      {
+        "evaluations": 80,
+        "sr_before": 4.852348993288591,
+        "sr_after": 4.476510067114094,
+        "sr_z_baseline": 4.852348993288591
+      }
+    ],
+    "automatic_extra_rounds_implemented": true,
+    "round_limit": 8,
+    "eligible_regions": 2,
+    "adaptation_python_wall_seconds": 0.09725064400004158
+  },
+  "metrics": {
+    "build_seconds": 0.002227473,
+    "query_before_us": 3.31144333333,
+    "qps_before": 301983.12317,
+    "query_shifted_us": 3.18337166667,
+    "qps_shifted": 314132.342909,
+    "query_adapted_us": 3.3485,
+    "qps_adapted": 298641.182619,
+    "raw_update_seconds": 0.000932117,
+    "reindex_seconds": 0.001090289,
+    "update_operations": 5150,
+    "rekeyed_points": 2575,
+    "degradation_shifted_pct": -3.86754818896,
+    "degradation_adapted_pct": 1.11904879343,
+    "exact_results_verified": true,
+    "checksums": [
+      33850,
+      32330,
+      32330
+    ],
+    "adaptation_seconds": 0.09834093300004157,
+    "update_with_adaptation_us": 19.276320388357586,
+    "update_without_adaptation_us": 0.1809935922330097
+  }
+}

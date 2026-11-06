@@ -1,0 +1,7 @@
+test_boundary_empty_queries_and_updates_both_backends (test_metrics.CommonBenchmarkTests.test_boundary_empty_queries_and_updates_both_backends) ... ok
+test_duplicate_initial_points_are_rejected (test_metrics.CommonBenchmarkTests.test_duplicate_initial_points_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 7.140s
+
+OK
