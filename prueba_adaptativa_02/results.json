@@ -1,0 +1,84 @@
+{
+  "implementation": "independent BMTree partial-retraining reconstruction v0.1",
+  "not_an_official_reproduction": true,
+  "dataset": "synthetic demo",
+  "config": {
+    "demo": true,
+    "tree": null,
+    "data": null,
+    "new_data": null,
+    "queries": null,
+    "new_queries": null,
+    "out": "prueba_adaptativa_02",
+    "seed": 42,
+    "sample": 2000,
+    "rollouts": 32,
+    "levels": 4,
+    "threshold": 0.1,
+    "budget": 0.5,
+    "block_size": 50,
+    "repeats": 1000,
+    "learn_initial": true
+  },
+  "python": "3.14.4",
+  "numpy": "2.5.4",
+  "compiler": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "points_before": 10000,
+  "points_after": 10000,
+  "test_queries": 60,
+  "training_queries_old": 240,
+  "training_queries_new": 240,
+  "initial_training": {
+    "evaluations": 113,
+    "sr_before": 3.4208333333333334,
+    "sr_after": 2.8916666666666666,
+    "sr_z_baseline": 3.4208333333333334,
+    "seconds": 0.27619351599992115,
+    "mode": "fresh initial training, disjoint test queries"
+  },
+  "adaptation": {
+    "detection_seconds": 0.027378669000199807,
+    "training_seconds": 0.09534885600010057,
+    "selected_paths": [
+      "left/left"
+    ],
+    "space_ratio": 0.25,
+    "candidates": 10,
+    "rounds": [
+      {
+        "evaluations": 84,
+        "sr_before": 7.395061728395062,
+        "sr_after": 7.0246913580246915,
+        "sr_z_baseline": 4.777777777777778
+      }
+    ],
+    "automatic_extra_rounds_implemented": true,
+    "round_limit": 8,
+    "eligible_regions": 3,
+    "adaptation_python_wall_seconds": 0.12289432899979147
+  },
+  "metrics": {
+    "build_seconds": 0.001859226,
+    "query_before_us": 2.82878245,
+    "qps_before": 353508.980516,
+    "query_shifted_us": 2.78925485,
+    "qps_shifted": 358518.691829,
+    "query_adapted_us": 2.56203488333,
+    "qps_adapted": 390314.748056,
+    "raw_update_seconds": 0.000812862,
+    "reindex_seconds": 0.000891574,
+    "update_operations": 5150,
+    "rekeyed_points": 2527,
+    "degradation_shifted_pct": -1.39733615782,
+    "degradation_adapted_pct": -9.42976603474,
+    "exact_results_verified": true,
+    "checksums": [
+      3385000,
+      3233000,
+      3233000
+    ],
+    "adaptation_seconds": 0.12378590299979148,
+    "update_with_adaptation_us": 24.19393495141582,
+    "update_without_adaptation_us": 0.15783728155339807
+  }
+}
