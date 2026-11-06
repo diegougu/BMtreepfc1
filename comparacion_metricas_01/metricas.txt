@@ -1,0 +1,19 @@
+
+METRICAS FINALES
+Consultas: datos actualizados y mantenimiento completado.
+
+Metrica                                                 BMTree        FlexFlood  Unidad
+----------------------------------------------------------------------------------------------------
+Latencia media de consulta                               3.871            0.646  us/consulta
+Throughput de consultas (QPS)                       258,360.62     1,547,062.29  consultas/s
+Tiempo medio amortizado de actualizacion                23.277            0.287  us/operacion
+Tiempo de adaptacion                                   118.592            0.594  ms
+Degradacion de latencia                                 -7.520          -29.971  %
+Recall (micro)                                         100.000          100.000  %
+Tiempo total de construccion                           296.972        3,307.575  ms
+Memoria del indice residente                             0.585            0.331  MiB
+
+Exactitud: ambos indices coinciden con fuerza bruta en todas las consultas de prueba.
+Memoria: estimacion estructural residente, incluye almacenamiento propio de registros.
+Adaptacion: suma de componentes en BMTree; mantenimiento durante updates en FlexFlood.
+Demo sintetica; no son resultados OSM ni una reproduccion identica de los papers.
